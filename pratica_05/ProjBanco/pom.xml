@@ -5,11 +5,11 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>cesar.github.praticas</groupId> <!-- DEVE SER O package dos .java -->
-  <artifactId>pratica_6</artifactId> <!-- NOME DO APLICATIVO NO FINAL -->
+  <artifactId>conta_corrente</artifactId> <!-- NOME DO APLICATIVO NO FINAL -->
   <version>1.0-SNAPSHOT</version> <!-- SOBRENOME DO APLICATIVO NO FINAL -->
 
   <packaging>jar</packaging>
-  <name>pratica_6-app</name> <!-- ex: é um sistema "sys" -->
+  <name>tes-app</name> <!-- ex: é um sistema "sys" -->
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -54,7 +54,7 @@
             <archive>
               <manifest>
                 <addClasspath>true</addClasspath>
-                <mainClass>cesar.github.praticas.CitiesProcessorDemo</mainClass> <!-- "package"."main" -->
+                <mainClass>cesar.github.praticas.App</mainClass> <!-- "package"."main" -->
               </manifest>
             </archive>
           </configuration>
@@ -78,15 +78,5 @@
         </plugin>
       </plugins>
     </pluginManagement>
-    <plugins>
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-compiler-plugin</artifactId>
-        <configuration>
-          <source>8</source>
-          <target>8</target>
-        </configuration>
-      </plugin>
-    </plugins>
   </build>
 </project>
