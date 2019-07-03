@@ -1,0 +1,5 @@
+O que teria acontecido se a classe ContaPoupanca não implementasse Comparable<ContaPoupanca> mas
+tivesse o método compareTo?
+
+- não seria possível ordenar pelo metodo Collections.sort(), 
+pois este só aceita classes que possam assinem a interface Comparable;

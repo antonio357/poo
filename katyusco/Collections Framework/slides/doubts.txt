@@ -1,0 +1,11 @@
+- em relação a List	-> answered
+	- porque ArrayList é mais rapido na busca por elemntos?
+		. talvez por causo do index?
+	- poque List é mais rapido na inserção de elementos?
+		. talvez porque tem uma eu guardo a referencia do ultimo elemento da linkedlist 
+		e ai pego e mando ele apontar pra esse novo objeto que esta sendo inserido?
+
+- em relação a programação generica -> answered
+		- ArrayList<Object> lista = new ArrayList<Object>();
+			. programação genérica porque como todo objeto criado herda diretamente ou indiretamente de 
+			Object do java então a lista é generica aceita qualquer objeto?

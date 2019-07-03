@@ -1,0 +1,7 @@
+﻿Questão 4) Seu programa lê todas as linhas desse arquivo. Repare na utilização do polimorsmo. Como
+ambos são InputStream, isso faz com que eles se encaixem no InputStreamReader.
+
+Além da FileInputStream, que outras classes poderiam tomar seu lugar? Olhe na documentação!
+
+- é possível colocar qualquer classe que implementa a interface InputStream 
+- Ex: BufferedInputStream, ByteArrayInputStream, DataInputStream, FilterInputStream, read(), OutputStream, PushbackInputStream

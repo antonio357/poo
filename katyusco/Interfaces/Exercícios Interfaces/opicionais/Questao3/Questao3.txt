@@ -1,0 +1,5 @@
+Quais os benefícios de manter o código com baixo acoplamento?
+
+- se torna fácil fazer alterações do tipo acrescentar uma classe ou remover outra do sistema, 
+pois estas se tornam devidamente encapsuladas e pouco dependente de outras logo o sistema 
+se torna fácil de ser alterado e se adaptar as exigencias futuras.

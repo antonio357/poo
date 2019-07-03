@@ -1,0 +1,25 @@
+ Qual é a saída?
+
+inicio do main
+inicio do metodo1
+inicio do metodo2
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: Index 10 out of bounds for length 10
+	at poo.code.TesteErro.metodo2(TesteErro.java:23)
+	at poo.code.TesteErro.metodo1(TesteErro.java:16)
+	at poo.code.TesteErro.main(TesteErro.java:9) 
+ 
+ O que isso representa?  O que ela indica?
+
+- representa uma Exception que foi gerada porque se tentou acessar uma posição do array que não existe.
+- também mostra ttodo o caminho que a exeção gerada percorreu desde sua arigem até a JVM tratala (parando a execução do programa)
+	

@@ -1,0 +1,5 @@
+Precisamos alterar mais algum código para que essa substituição funcione? Rode o programa. Alguma
+diferença?
+
+- não, pois devido ao polimorfismo tanto um ArrayList como uma LinkedList
+ podem ser referanciadas por um Ponteiro do tipo List já que estas duas classes implementam List

@@ -1,0 +1,5 @@
+Questão1) O que é lento? A inserção de 30 mil elementos ou as 30 mil buscas?
+
+- no caso do HashSet a inserção é lenta pois, 
+nela ocorre um processo de classificação de Hashcode, 
+essa classificação que posteriormente possibilita a busca de forma rápida e eficiente.

@@ -1,0 +1,34 @@
+- Em relação a List
+	- por padrão inserem elementos de acordo com a ordem de inserção
+	- implementão List e herdam de Collenctions
+		-> ArrayList é mais rapido na busca por elementos
+			- tem acesso aleatório imediato
+		-> LinkedLIst é mais rapido na inserção de elementos
+			- tem metodos extra para remover e adicionar no inicio e no fim
+			
+- Em relação a programação generica:
+	- é importante que ao manipular ter uma lista generica se tenha cuidado com a typecast, 
+	ou seja fazer a conversão de objeto de forma correta
+	
+- Em relação a Conjuntos
+	- são mais rapidos do que as List no quisito busca por elementos
+	- não tem ordem pre determinda e também 
+	- não aceitam elementos duplicados
+	- implementão Set e herdam de Collections
+	- podem ser pecorridos por interador (enchanted-for)
+		-> HashSet
+		-> TreeSet
+			- pode ja vir ordenado se necessário 
+		-> LinkedHashSet
+		
+- Em relação ao Map
+	- mapas não herdam de Collectios, mas podem 
+	utilizar de coleções para auxiliar com alguns problemas
+	- não tem ordenação 
+	- podem ser pecorridos por interador (enchanted-for)
+	- funcionam com dupla de objetos, onde um objeto é a chave e o outro o conteudo que a chave guarda
+	-> HashMap
+	-> LinkedHashMap
+	
+	
+	

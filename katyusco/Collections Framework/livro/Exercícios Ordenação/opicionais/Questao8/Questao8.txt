@@ -1,0 +1,5 @@
+Imprima a referência para essa lista. Repare que o toString de uma ArrayList/LinkedList é
+reescrito?
+System.out.println(contas);
+
+- não o método não é reescrito

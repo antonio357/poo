@@ -1,0 +1,5 @@
+O que acontece se acabar a memória da java virtual machine? 
+Ocorre:
+Exception in thread "main" java.lang.StackOverflowError
+
+que é um Objeto que Herda de Error que assim como Exception Herda de Throwable

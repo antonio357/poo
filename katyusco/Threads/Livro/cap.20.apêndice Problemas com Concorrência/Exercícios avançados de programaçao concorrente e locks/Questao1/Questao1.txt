@@ -1,0 +1,5 @@
+Rode algumas vezes. O que acontece?
+
+- muitas vezes quase sempre tera mensagens não incontradas, isso ocorre porque 3 linhas de execução 
+tentaram acessar o Arraylist ao mesmo tempo então "pode" (certamente) ira aconter de uma das 
+Threads sobreescrver uma posição do array que já havia sido escrita entra outros erros

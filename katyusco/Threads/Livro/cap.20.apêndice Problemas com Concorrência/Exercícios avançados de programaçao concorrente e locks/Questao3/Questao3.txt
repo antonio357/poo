@@ -1,0 +1,4 @@
+O que mudou? Olhe o código do método add na classe Vector. O que tem de diferente nele?
+
+- não é mais necessário informar ao compilador da JVM que a coleção mensagens deve ser sincronizada
+- nada de muito diferente apenas o fato de que todos os acessos a um Vector são sincroizados pela automaticamente

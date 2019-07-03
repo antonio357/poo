@@ -1,0 +1,4 @@
+Tente chamar o método getSaldo através da referência t, o que ocorre? Por quê?
+
+o programa não compila, porque referenciar um objeto com um ponteiro de Tributo no caso o t 
+só garante que aquele objeto é tributável não garante qu eele tem um método getSaldo

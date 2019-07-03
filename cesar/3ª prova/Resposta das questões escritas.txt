@@ -1,0 +1,16 @@
+qustão 1)
+
+	- o jar que foi compilado e criado com o main do cliente, 
+	juntamente com os .class que seram necessarios, estes 
+	sendo referentes as classes extendidas e interfaces como a Remote, e a UnicastRemoteObject
+	implementadas para que Cliente.class possa fazer
+	invocações de metodos remotamete ao servidor.
+	
+	- o jar que foi compilado e criado com o main do servidor,
+	juntamente com os .class que seram necessarios, estes 
+	sendo referentes as classes extendidas e interfaces como a Remote, e a UnicastRemoteObject
+	implementadas para que Servidor.class possa, ser registrado e 
+	disponibilise invocações de metodos remotamete.
+	
+	- O RMIRegistry ele é o registro que vai guadar (bind) os objetos remotos e realisar o intercambio
+	as chamadas dos metodos destes objetos remotos.

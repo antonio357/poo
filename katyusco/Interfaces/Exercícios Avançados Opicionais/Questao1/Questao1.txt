@@ -1,0 +1,5 @@
+Algum código vai ter de ser copiado e colado? Isso é tão ruim?
+
+- sim, pois ContaCorrente e ContaPoupança teram que impementar todos os metodos de Conta, mas isso não é ruim,
+já que o compilador do java cai sempre avisar se um dos métodos de qualquer uma dessas classes estão faltando.
+(felizmente a IDE já faz o trabalho de escrever esses códigos para o programador)

@@ -1,0 +1,6 @@
+Qual é a diferença?
+
+- o try em volta do for levanta uma exeção na primeira tentativa de acessar uma posição que não existe do vetor, 
+isso encerra o for e já vai pra o catch logo abaixo e encerra o metodo 2
+
+- ja com o try dentro do for cada todos os indices que não existem e tentaram ser acessados iram gerar uma exeção que sera tratada

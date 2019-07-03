@@ -1,0 +1,5 @@
+Questão 2) Dê um exemplo de um caso em que não poderíamos nos referir a uma coleção de elementos como
+Collection, mas necessariamente por interfaces mais específicas como List ou Set.
+
+- caso um método acesse um elemento de um objeto por índex, 
+neste caso a colleção tem que ser uma lista e por tanto tera que ser referenciada por List.

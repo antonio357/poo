@@ -1,0 +1,3 @@
+Questao 4) Qual das duas listas foi mais rápida para adicionar elementos à primeira posição?
+
+- a LinkedList.

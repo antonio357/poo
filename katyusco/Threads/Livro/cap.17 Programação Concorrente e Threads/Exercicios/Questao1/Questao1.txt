@@ -1,0 +1,4 @@
+Rode várias vezes a classe Teste e observe os diferentes resultados em cada execução. O que muda?
+
+- as threads 1 e 2 ficam "concorrendo" pela saída do terminal de forma que o os uma ora escala a tread 1 deixando 
+ele printar os numeros na tela e consequentimente coloca a thread 2 para dormir, e viseversa

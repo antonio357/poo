@@ -1,0 +1,8 @@
+1. questoin from slide: No array abaixo, o que acontece
+quando precisarmos inserir um novo
+elemento?
+
+	-> não conseguimos adicionar a conta, 
+	sem antes saber uma posição disponível do array
+	
+	
